@@ -1,0 +1,5 @@
+{
+  "name": "Internet Trends Explorer",
+  "description": "An application to explore current internet trends using Gemini AI for search results and trend suggestions. Features a dynamic UI with a dark gradient theme and animations.",
+  "requestFramePermissions": []
+}

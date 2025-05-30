@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internet Trends Explorer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif; /* A nice modern sans-serif font often used with Tailwind */
+    }
+    /* Custom scrollbar for a more polished look */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1f2937; /* bg-gray-800 */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #4f46e5; /* indigo-600 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #6366f1; /* indigo-500 */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.2.0",
+    "gsap": "https://esm.sh/gsap@^3.13.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "showdown": "https://esm.sh/showdown@2.1.0",
+    "pdfmake/build/pdfmake": "https://esm.sh/pdfmake@0.2.9/build/pdfmake.js",
+    "pdfmake/build/vfs_fonts": "https://esm.sh/pdfmake@0.2.9/build/vfs_fonts.js",
+    "html-to-pdfmake": "https://esm.sh/html-to-pdfmake@2.5.1",
+    "html2canvas": "https://esm.sh/html2canvas@^1.4.1",
+    "jspdf": "https://esm.sh/jspdf@^3.0.1",
+    "pdfmake/": "https://esm.sh/pdfmake@^0.2.20/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-purple-950 to-blue-950 text-slate-100 min-h-screen">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
